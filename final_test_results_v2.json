@@ -1,0 +1,30 @@
+{
+  "model_info": {
+    "best_epoch": 28,
+    "val_rmse": 1.2017504779425079,
+    "val_mae": 0.9110826253890991,
+    "val_pred_std": 1.0046087503433228
+  },
+  "test_metrics": {
+    "rmse": 1.1664066649408746,
+    "mae": 0.8787619471549988,
+    "mean_error": -0.6855868697166443,
+    "std_error": 0.9436498880386353
+  },
+  "error_distribution": {
+    "max_overestimate": 3.812847137451172,
+    "max_underestimate": -3.99888014793396,
+    "median_absolute_error": 0.6749659776687622
+  },
+  "accuracy": {
+    "within_05_stars": 39.78506619068868,
+    "within_10_stars": 65.75189647478804,
+    "within_15_stars": 82.05414249590956
+  },
+  "statistics": {
+    "true_mean": 4.294213771820068,
+    "true_std": 1.0966628789901733,
+    "pred_mean": 3.6086266040802,
+    "pred_std": 1.0105348825454712
+  }
+}

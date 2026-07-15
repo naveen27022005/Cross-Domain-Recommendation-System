@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Secrets and API Keys (Do not push!)
+api_key.txt
+
+# Large Raw Datasets
+meta_Movies_and_TV.jsonl
+*.jsonl
+
+# Ignore large binary directories
+data/aggregated/
+data/cold_start_split/
+data/embeddings/
+data/preprocessed/
+
+# Ignore processed data except the movie title cache
+data/processed/*
+!data/processed/asin_to_movie_title.json
